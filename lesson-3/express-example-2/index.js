@@ -12,4 +12,4 @@ app.get("/books", (req, res) => {
   // res.send(books);
 });
 
-app.listen(3000);
+app.listen(3000, () => console.log("Server running"));
